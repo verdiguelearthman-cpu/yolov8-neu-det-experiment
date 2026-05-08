@@ -1,6 +1,6 @@
 # 会话记忆 - 骡子交接文档
 
-## 当前进度状态：正在训练
+## 当前进度状态：已完成
 
 ### 已完成
 1. [x] 安装依赖：ultralytics, pytorch(GPU版 cu121), torchvision
@@ -12,14 +12,13 @@
 7. [x] 修复neu.yaml中train/val路径（从txt文件改为文件夹路径）
 
 ### 当前步骤
-- 用户正在运行训练：`python objectDetection.py`
-- 训练参数：YOLOv8n, 30 epochs, NEU-DET数据集, GPU加速
+- 训练已完成，实验报告已撰写并优化
 
-### 待完成
-1. [ ] 确认训练成功完成（查看runs/detect/train/下的输出）
-2. [ ] 截图训练结果（results.png, confusion_matrix.png, val预测图等）
-3. [ ] 撰写实验报告（有.doc模板在 `D:\YOLO各版本\YOLO验证性实验\实验报告模板.doc`）
-4. [ ] 如需要：用训练好的模型对新图片进行推理预测
+### 已完成（后续）
+1. [x] 训练成功完成（30 epochs，best model at epoch 27）
+2. [x] 训练结果：mAP50=0.820, mAP50-95=0.516, Precision=0.682, Recall=0.804
+3. [x] 撰写实验报告并上传至仓库
+4. [x] 训练结果文件（曲线图、混淆矩阵、模型权重等）已上传
 
 ## 关键文件内容
 
